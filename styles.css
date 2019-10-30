@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #4e4d4d;
+
+}
+
+.offset:before {
+    display:block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+}
+
+/*-- navbar--*/
+
+.navbar {
+    text-transform: uppercase;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background-color: rgba(236, 241, 243, 0.95);
+}
+.navbar-brand img {
+    height: 3rem;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-light {
+    padding-top: .8rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2f2c23;
+    font-weight: 700;
+    
+}
+
+
+/*--landing page --*/
+
+.home-inner {
+    background-image: url(img/sakura1.jpg);
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top:40%;
+    z-index: 1;
+    color: white;   
+}
+
+.caption h1 {
+    font-size: 4.2rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg{
+    border-width: medium;
+    border-radius: 2;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+}
+
+/*--service section --*/
+
+.jumbotron {
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+}
+
+h3.heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    color: #4e4d4d;
+
+}
+
+.heading-underline {
+    width: 5rem;
+    height: .1rem;
+    background-color: rgb(120, 185, 245);
+    margin: 0 auto 2rem;
+}
+
+.service img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.service-description {
+    margin: 2rem auto;
+    width: 80%;
+    
+}
+
+/*--about me section --*/
+
+#aboutme {
+    margin-bottom: 0;
+    padding: 4.5rem 0 3.5rem;
+    border-radius: 0;
+}
+
+#aboutme.heading {
+    margin: 2rem auto;
+}
+
+#aboutme img {
+    width: 70%;
+
+}
+
+.about-me-descript {
+    margin: 0 auto;
+    width: 90%;
+}
+
+/*--philosophy --*/
+
+#philosophy {
+    margin-bottom: 0;
+    padding: 4.5rem 0 7rem;
+    border-radius: 0;
+    background-color:#4e4d4d; 
+    
+}
+
+#philosophy svg.svg-inline--fa{
+    font-size: 4rem;
+    margin:1rem 0 2rem 0;
+}
+
+
+
+
+
+
+/*--contact --*/
+
+#contact {
+    margin-bottom: 0;
+    padding: 4.5rem 0 3.5rem;
+    border-radius: 0;
+    background-color: #3b4147
+}
+
+#contact.container {
+    margin-top: 2rem;
+}
+
+/*--access -- */
+
+#access {
+    padding: 4.5rem 0 3.5rem;
+}
+
+#access.map{
+    width: 75%;
+}
+
+#access h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+ 
+/*--footer --*/
+
+.footer {
+    padding: 1.5rem;
+    background-color: #3b4147;
+    color: #ffffff;
+}
+
+.footer img {
+    height: 7rem;
+    padding: 1rem;
+}
+
+.footer svg.svg-inline--fa {
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 1rem .7rem 0 0;
+    
+}
+
+.footer svg.svg-inline--fa:hover {
+    color: rgb(120,185,245);
+}
+
+.footer hr{
+    width: 100%;
+    background-color: rgb(120,185,245);
+}
